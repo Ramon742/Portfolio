@@ -1,0 +1,59 @@
+#cover {
+    background: linear-gradient(94.07deg, rgba(0, 119, 182, 0.375) 0%, rgba(1, 58, 117, 0.75) 52.08%, rgba(1, 2, 58, 0.75) 100%), url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .info {
+        text-align: center;
+
+        .text {
+            font-size: 3rem;
+            font-weight: bold;
+            @media screen and (max-width: 760px) {
+                font-size: 2rem !important;
+            }
+        }
+
+        .btn-services {
+            margin-top: 40px;
+            width: 90%;
+            max-width: 350px;
+            height: 50px;
+            background-color: white;
+            color: #01023A;
+            font-size: 18px;
+            border: none;
+            border: 1px solid grey;
+            font-weight: 600;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            &:hover {
+                background-color: rgba(0, 0, 0, .0);
+                border: 2px solid white;
+                color: white;
+            }
+        }
+    }
+
+    .infos {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-weight: 600;
+
+        display: flex;
+        justify-content: space-around;
+
+        .cover-info {
+            margin: 15px 20px;
+            @media screen and (max-width: 760px) {
+                display: none !important;
+            }
+        }
+
+    }
+}

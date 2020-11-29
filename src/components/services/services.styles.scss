@@ -1,0 +1,55 @@
+#services {
+    background: #01023A;
+    color: white;
+    padding: 0 20px;
+    .services-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 70px 0;
+
+        .title-service {
+            font-size: 32px;
+            font-weight: bold;
+            @media screen and (max-width: 1007px) {
+                border-bottom: 4px solid #0077B6;
+            }
+        }
+
+        .text-service {
+            color: #F8F8F8;
+            border-left: 4px solid #0077B6;
+            padding-left: 30px;
+            text-align: justify;
+            @media screen and (max-width: 1007px) {
+                border: none;
+                padding-left: 0;
+            }
+        }
+    }
+    .btn-services {
+        height: 50px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, .0);
+        color: white;
+        border: 2px solid white;
+        font-weight: 600;
+        font-size: 18px;
+        cursor: pointer;
+        transition-duration: 0.2s;
+        &:hover {
+            color: #01023A;
+            background-color: white;
+        }
+    }
+
+    .list-services {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+}

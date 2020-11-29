@@ -1,0 +1,12 @@
+#projects {
+    color: #121418;
+    width: 90%;
+    margin: auto;
+    .projects-text {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
