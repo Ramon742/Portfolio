@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import './App.scss';
 
 import Header from './components/header/header.component';
@@ -9,15 +11,25 @@ import Contact from './components/contact/contact.component';
 import Footer from './components/footer/footer.component';
 
 const App = () => {
+  const [portuguese, setPortuguese] = useState(true);
+
+  const changeLanguageToPortuguese = () => {
+    setPortuguese(true);
+  }
+
+  const changeLanguageToEnglish = () => {
+    setPortuguese(false);
+  }
+
   return (
     <div>
-      <Header />
-      <Cover />
-      <Services />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      <Header changeLanguageToEnglish={changeLanguageToEnglish} changeLanguageToPortuguese={changeLanguageToPortuguese} portuguese={portuguese}/>
+      <Cover portuguese={portuguese} />
+      <Services portuguese={portuguese} />
+      <Projects portuguese={portuguese} />
+      <About portuguese={portuguese} />
+      <Contact portuguese={portuguese} />
+      <Footer portuguese={portuguese} />
     </div>
   );
 }

@@ -18,6 +18,17 @@
             }
         }
 
+        .sub-text {
+            display: block;
+            font-size: 2rem;
+            @media screen and (max-width: 760px) {
+                font-size: 1.2rem !important;
+                margin-top: 20px;
+            }
+        }
+
+        
+
         .btn-services {
             margin-top: 40px;
             width: 90%;
