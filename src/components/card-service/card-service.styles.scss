@@ -1,14 +1,16 @@
 .card-service {
     flex-basis: 370px;
     padding: 30px 15px;
+    max-width: 400px;
+    margin: auto;
     text-align: center;
     .img-service {
-        max-height: 200px;
+        width: 80%;
     }
 }
 
 .card-mid {
-    border: 4px dashed #0077B6;
+    border: 3px dashed #0077B6;
     box-sizing: border-box;
     border-radius: 8px;
 

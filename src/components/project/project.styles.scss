@@ -2,16 +2,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap-reverse;
+    
+    width: 100%;
+    max-width: 1270px;
+    margin: auto;
 
     @media screen and (max-width: 1180px) {
         margin-bottom: 100px;
         text-align: center;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
     }
 
     .project-info {
         flex-basis: 600px;
-        margin: auto;
     
         .project-header {
             border-left: 4px solid #03045E;

@@ -8,6 +8,8 @@
         align-items: center;
         flex-wrap: wrap;
         padding: 70px 0;
+        max-width: 1600px;
+        margin: auto;
 
         .title-service {
             font-size: 32px;
@@ -47,11 +49,12 @@
 
     .list-services {
         width: 90%;
+        max-width: 1200px;
         margin: auto;
         display: flex;
         justify-content: center;
         padding-bottom: 70px;
-        @media screen and (max-width: 950px) {
+        @media screen and (max-width: 1050px) {
             flex-wrap: wrap;
             display: block;
         }
