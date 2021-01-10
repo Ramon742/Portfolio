@@ -27,12 +27,14 @@ const Projects = ({ portuguese }) => {
                             title='Loja de Roupas'
                             description ='É uma aplicação web para exibir produtos de moda online para venda, crie sua conta e navegue pelo site para ver suas funcionalidades. (Espere alguns segundos para o site abrir a primeira vez).'
                             image='images/ecommerce.jpg'
+                            firstProject={true}
                         />
                         <Project
                             type='Website'
                             title='Rede Social para Estudantes'
                             description ='É uma aplicação web  que tende a conectar estudantes universitários e mostrar seu portfólio. Aqui você encontrará todos os tipos de funcionalidades, como bate-papo, mensagens, comentários, discussões, projetos do github e muito mais. (Espere alguns segundos para o site abrir a primeira vez).'
                             image='images/comunidade.png'
+                            firstProject={false}
                         />
                     </span>
                 ) : (
