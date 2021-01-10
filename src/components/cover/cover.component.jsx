@@ -7,7 +7,7 @@ const Cover = ({ portuguese }) => {
         <div id='cover'>
             <div className='info'>
                 <span className='text'>
-                    {portuguese ? 'VENHA CRIAR A SUA PRESENÇA DIGITAL' : 'CREATE YOUR DIGITAL PRESENCE NOW'}
+                    {portuguese ? 'venha criar sua presença digital' : 'create your digital presence now'}
                 </span>
                 <span className='sub-text'>
                 {portuguese ? 'Guie seus clientes para os principais serviços e produtos que você oferece.' : 'Guide your customers to the main services and products you offer.'}

@@ -34,6 +34,7 @@
         background-color: rgba(0, 0, 0, .0);
         color: white;
         border: 2px solid white;
+        border-radius: 10px;
         font-weight: 600;
         font-size: 18px;
         cursor: pointer;
@@ -48,8 +49,11 @@
         width: 90%;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         padding-bottom: 70px;
+        @media screen and (max-width: 950px) {
+            flex-wrap: wrap;
+            display: block;
+        }
     }
 }
