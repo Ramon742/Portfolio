@@ -18,7 +18,9 @@ const Services = ({ portuguese }) => {
                         "A website is a unique way to connect with the world. Whether it's to share your passion for music, inform people about your business, sell products or any other reason, there are no limits to what you can do! With a website, countless possibilities are available to you!"}
                     </p>
                 </div>
-                <button className='btn-services'>{portuguese ? 'Criar Projeto' : 'Create Project'} <i style={{marginLeft: '20px'}} className="fas fa-arrow-right"></i></button>
+                <a href="#contact">
+                    <button className='btn-services'>{portuguese ? 'Criar Projeto' : 'Create Project'} <i style={{marginLeft: '20px'}} className="fas fa-arrow-right"></i></button>
+                </a>
             </div>
             <div className='list-services'>  
 

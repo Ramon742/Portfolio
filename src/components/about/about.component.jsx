@@ -23,8 +23,11 @@ const About = ({ portuguese }) => {
                     </span>}
                     
                 </div>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ramon-davi-13398a177/">
                 <button className='btn-about'> 
-                {portuguese ? 'Meu Linkedin' : 'My Linkedin'} <i style={{marginLeft: '20px'}} className="fab fa-linkedin-in"></i> </button>
+                    {portuguese ? 'Meu Linkedin' : 'My Linkedin'} <i style={{marginLeft: '20px'}} className="fab fa-linkedin-in"></i> 
+                </button>
+                </a>
             </div>
             <div className='about-image'>
                 <div className='image-container'>

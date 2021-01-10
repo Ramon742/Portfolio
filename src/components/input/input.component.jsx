@@ -13,6 +13,7 @@ const Input = ({ label, inputType, name, value ,handleChange }) => {
                 value={value}
                 id={name} 
                 onChange={handleChange} 
+                required
             />
         </div>
     )

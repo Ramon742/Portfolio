@@ -66,6 +66,34 @@
                     color: #03045E;
                 }
             }
+
+            .btn-contact-disabled {
+                margin-top: 30px;
+                margin-bottom: 50px;
+                background-color: #FEFEFE;
+                border: 2px solid #bdbdc2;
+                box-sizing: border-box;
+                font-size: 18px;
+                font-weight: 600;
+                height: 40px;
+                width: 100%;
+                max-width: 300px;
+                color: #bdbdc2;
+                cursor: pointer;
+                transition-duration: 0.2s;
+            }
+
+            .success-message {
+                color: #3c763d;
+                font-size: 1.3rem;
+                margin-top: 20px;
+            }
+
+            .error-message {
+                color: #721c24;
+                font-size: 1.3rem;
+                margin-bottom: 20px;
+            }
         }
 
     }

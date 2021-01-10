@@ -12,11 +12,11 @@ const Cover = ({ portuguese }) => {
                 <span className='sub-text'>
                 {portuguese ? 'Guie seus clientes para os principais serviços e produtos que você oferece.' : 'Guide your customers to the main services and products you offer.'}
                 </span>
-                <div>
+                <a href="#contact">
                     <button className='btn-services'>
                         {portuguese ? 'Criar projeto agora' : 'Create project now'}
                     </button>
-                </div>
+                </a>
             </div>
 
             <div className='infos'>
