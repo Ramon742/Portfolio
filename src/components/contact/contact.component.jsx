@@ -34,7 +34,7 @@ const Contact = ({ portuguese }) => {
 
             <div className='contact-container'>
                 <div className='contact-image'>
-                    <img src="images/message.png" width='350' alt=""/>
+                    <img src="images/message.png" width='350' alt="contact"/>
                 </div>
 
                 <div className='contact-form'>

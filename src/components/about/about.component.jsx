@@ -29,7 +29,7 @@ const About = ({ portuguese }) => {
             </div>
             <div className='about-image'>
                 <div className='image-container'>
-                    <img className='img' src="images/perfil.png" alt=""/>
+                    <img className='img' src="images/perfil.png" alt="profile"/>
                 </div>
             </div>
         </div>

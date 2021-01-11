@@ -7,7 +7,7 @@ const Footer = () => {
         <div id='footer'>
             <div className='container-footer'>
                 <div className='logo'>
-                    <span>Logo</span> 
+                    <span className='name'>{'< Ramon />'}</span> 
                 </div>
 
                 <div className='contact'>
@@ -28,12 +28,12 @@ const Footer = () => {
                 <div className='social-network' >
                     <div style={{fontSize: '1.2rem', fontWeight: '700', marginBottom: '10px'}}>Redes Sociais</div>
                     <div className='links'> 
-                        <a target="_blank" rel="noopener noreferrer" className='linkedin' href="https://www.linkedin.com/in/ramondavidev/"><i class="fab fa-linkedin fa-2x"></i></a> 
-                        <a target="_blank" rel="noopener noreferrer" className='github' href="https://github.com/ramondavidev"><i class="fab fa-github-square fa-2x"></i></a>  
+                        <a target="_blank" rel="noopener noreferrer" className='linkedin' href="https://www.linkedin.com/in/ramondavidev/"><i className="fab fa-linkedin fa-2x"></i></a> 
+                        <a target="_blank" rel="noopener noreferrer" className='github' href="https://github.com/ramondavidev"><i className="fab fa-github-square fa-2x"></i></a>  
                     </div>
                 </div>
             </div>
-            <div className='copyright'>Todos os direitos reservados <i class="far fa-copyright"></i></div>
+            <div className='copyright'>Todos os direitos reservados <i className="far fa-copyright"></i></div>
         </div>
     )
 }

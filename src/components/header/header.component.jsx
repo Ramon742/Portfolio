@@ -31,10 +31,10 @@ const Header = ({ changeLanguageToPortuguese, changeLanguageToEnglish, portugues
         <div id='header' className={navbar ? 'navbar-active' : null}>
             
             <SideBar handleSideBar={handleSideBar} showSide={showSide} />
-            <a href='#cover' className='name'>Ramon</a>
+            <a href='#cover' className='name'> {'< Ramon />'}</a>
             <div className='languages'>
-                    <span onClick={changeLanguageToPortuguese}><img src={imageBrazil} alt=""/></span>
-                    <span onClick={changeLanguageToEnglish} ><img src={english} alt=""/></span>
+                    <span onClick={changeLanguageToPortuguese}><img src={imageBrazil} alt="PT"/></span>
+                    <span onClick={changeLanguageToEnglish} ><img src={english} alt="EN"/></span>
                 </div>
             <div className='pages'>
                 <a className='link' href='#services'>{portuguese ? 'Serviços' : 'Services'}</a>

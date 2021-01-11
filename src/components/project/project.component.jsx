@@ -16,7 +16,7 @@ const Project = ({ type, title, description, image, firstProject }) => {
                 </a>
             </div>
             <span className='img-container'>
-                <img className='img' src={image} alt=""/>
+                <img className='img' src={image} alt="project"/>
             </span>
         </div>
     )
